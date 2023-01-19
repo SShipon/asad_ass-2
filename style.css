@@ -128,6 +128,7 @@
 .some_Facts_container_card{
    margin-top: 5%;
    margin-left: 3%;
+   margin-right: 5%;
    display: grid;
    grid-gap: 5px;
    text-align: center;
@@ -251,10 +252,9 @@
       grid-column-gap: 5px;
     }
     
-
-
-
     .some_Facts_container_card{
+      margin-right: 5%;
+      margin-left: 5%;
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       grid-gap: 5px;
