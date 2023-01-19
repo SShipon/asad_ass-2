@@ -74,7 +74,7 @@
     
   }
   
-  .banner_content h1,p{
+  .banner_content{
     text-align: center;
     margin-top: 20px;
     
@@ -107,9 +107,42 @@
     margin: 0px auto;
    
 }
-.banner_content img:hover{
+
+/*-- 4 number section Some Facts */
+
+.main_container-section_facts{
+  margin-top: 10%;
+  margin-left: 10%;
+ 
+}
+.facts_title{
+  margin-top: 10px;
+   font-weight: bold;
+   text-align: left;
+   font-size: 28px;
+}
+.text_content{
+  text-align: left;
+  font-size: 16px;
+}
+.some_Facts_container_card{
+   margin-top: 5%;
+   margin-left: 3%;
+   display: grid;
+   grid-gap: 5px;
+   text-align: center;
+   grid-template-columns: repeat(4, 1fr);
+   
    
 }
+.facts-card_container{
+  border: 1px solid #FF900E
+  ;
+  margin: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 
 
 
@@ -171,19 +204,16 @@
 
     }
   
-    .products {
+    .banner_section-area {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .some_Facts_container_card{
+      display: grid;
       grid-template-columns: repeat(2, 1fr);
+      grid-gap: 5px;
+      text-align: center;
     }
-    .blog-container {
-      grid-template-columns: repeat(3, 1fr);
-    }
-    footer {
-      padding-top: 100px;
-      padding-bottom: 60px;
-    }
-    footer .social-icon {
-      margin: 10px;
-    }
+   
   }
   
   /*======= Mobile Device ======= */
@@ -194,6 +224,11 @@
     .banner_content {
       margin-bottom: 50px;
     }
+    .main_container-section_facts{
+       margin-top: 10%;
+       margin-left: 10%;
+      
+     }
     .banner-title h1 {
       font-style: normal;
       font-weight: bold;
@@ -214,6 +249,16 @@
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       grid-column-gap: 5px;
+    }
+    
+
+
+
+    .some_Facts_container_card{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 5px;
+      text-align: center;
     }
   
     
