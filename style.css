@@ -179,6 +179,19 @@
 
 
 
+/* footer section area */
+
+.footer_container{
+  background-color: black;
+  padding: 20px;
+
+}
+.footer_container_text{
+  text-align: center;
+  color: #ffffff;
+}
+
+
 
 
 
